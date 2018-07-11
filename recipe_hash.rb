@@ -15,16 +15,16 @@
 
 
 #1. Write a method that simply returns (not puts) your perfect_10 hash
-ingredients = {"gluten freewhole oats" => 1 cup,
-                "kosher salt" => 1/2 teaspoon,
-                "almond flour" => 2 cups,
-                "baking powder" => 1/2 teaspoon,
-                "baking soda" => 1/4 teaspoon,
-                "xanthan gum" => 1/2 teaspoon,
-                "slivered almonds, lightly toasted" => 1/4 cup,
-                "mini dark chociolate chips" => 3/4 cup,
-                "olive oil" => 1/2 cup,
-                "agave" => 1/4 cup} 
+ingredients = {"gluten freewhole oats" => "1 cup",
+                "kosher salt" => "1/2 teaspoon",
+                "almond flour" => "2 cups",
+                "baking powder" => "1/2 teaspoon",
+                "baking soda" => "1/4 teaspoon",
+                "xanthan gum" => "1/2 teaspoon",
+                "slivered almonds, lightly toasted" => "1/4 cup",
+                "mini dark chociolate chips" => "3/4 cup",
+                "olive oil" => "1/2 cup",
+                "agave" => "1/4 cup"} 
 
 def recipe_ingredients(ingredients)
   return ingredients 
