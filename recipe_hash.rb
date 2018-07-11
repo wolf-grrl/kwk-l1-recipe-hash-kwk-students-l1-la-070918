@@ -27,7 +27,7 @@ ingredients = {"gluten freewhole oats" => "1 cup",
                 "agave" => "1/4 cup"} 
 
 def recipe_ingredients(ingredients)
-  return ingredients 
+  puts ingredients 
 end
 puts recipe_ingredients(ingredients)
 
