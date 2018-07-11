@@ -29,7 +29,7 @@ ingredients = {"gluten freewhole oats" => "1 cup",
 def recipe_ingredients(ingredients)
   return ingredients 
 end
-recipe_ingredients(ingredients)
+puts recipe_ingredients(ingredients)
 
 #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
 def amount_of_chocolate_chips(perfect_10_recipe)
