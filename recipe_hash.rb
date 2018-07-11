@@ -65,10 +65,12 @@ ingredients = {"gluten freewhole oats" => "1 cup",
 def ingredients_and_amounts(ingredients)
 
 ingredients.each do |key,value|
-end 
-end 
+puts "ingredient: #{key}"
+puts "amount: #{value}"
 
-puts ingredients_and_amounts(ingredients)
+end 
+end 
+ingredients_and_amounts(ingredients)
 
 #4: Now use `puts` to print out just the ingredients without the amounts. You'll want to use the `each_key` method.
 def ingredients(perfect_10_recipe)
