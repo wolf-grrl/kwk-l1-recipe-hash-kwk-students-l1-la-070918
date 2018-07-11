@@ -33,12 +33,26 @@ end
 puts recipe_ingredients(ingredients)
 
 #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
-def amount_of_chocolate_chips(perfect_10_recipe)
-  puts 
+
+def amount_of_chocolate_chips
+ ingredients = {"gluten freewhole oats" => "1 cup",
+                "kosher salt" => "1/2 teaspoon",
+                "almond flour" => "2 cups",
+                "baking powder" => "1/2 teaspoon",
+                "baking soda" => "1/4 teaspoon",
+                "xanthan gum" => "1/2 teaspoon",
+                "slivered almonds, lightly toasted" => "1/4 cup",
+                "mini dark chocolate chips" => "3/4 cup",
+                "olive oil" => "1/2 cup",
+                "agave" => "1/4 cup"} 
+  puts ingredients["mini dark chocolate chips"]
   
 end
 
+amount_of_chocolate_chips
+
 #3: Use `puts` to print out every ingredient and amount in the hash by iterating through the collection. You'll want to use the `each` method.
+
 
 
 def ingredients_and_amounts(perfect_10_recipe)
